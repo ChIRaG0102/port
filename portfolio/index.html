@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirag Portfolio</title>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <div class="left">
+        <img src="assets/img/logo.png"width="9%" alt="logo" id="logo">
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="project">Projects</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    </header>
+    <main>
+        <div class="leftsection">
+            <p>
+                Hi, My Name is <span id="name">Chirag</span><br>
+               and I am a <span id="element">Web Developer.</span>
+            </p>
+            <div class="buttons">
+               <a href="#"><button>Download Resume</button></a>
+               <a href="https:/www.github.com/ChIRaG0102" target="_blank"><button>Visit Github</button></a>
+            </div>
+            <div class="icons">
+                <div class="what" id="whatsapp"><i class="fa-brands fa-whatsapp"></i></a></div>
+                <div class="what" id="twitter"><i class="fa-brands fa-twitter"></i></a></div>
+                <div class="what" id="insta"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="what" id="face"><i class="fa-brands fa-facebook"></i></a></div>
+            </div>
+        </div>
+        <div class="rightsection">
+            <img src="assets/img/devloper.png" width="80%" alt="developer" class="developer">
+        </div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: [ 'Coder.','Web Developer.','Video Editor.','Web Designer.'],
+          typeSpeed: 100,
+        });
+      </script>
+</body>
+</html>
